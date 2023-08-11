@@ -1,6 +1,6 @@
-// Function to fetch weather data from OpenWeatherMap API
+
 async function getWeatherData(location) {
-    const apiKey = '1920d14f66500296278a613d03b5a364'; // Replace with your OpenWeatherMap API key
+    const apiKey = '1920d14f66500296278a613d03b5a364'; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(location)}&appid=${apiKey}&units=metric`
 
   
@@ -16,7 +16,7 @@ async function getWeatherData(location) {
     }
   }
   
-  // Function to display current weather information
+
   function displayCurrentWeather(weatherData) {
     const currentWeatherContainer = document.getElementById('current-weather');
     currentWeatherContainer.innerHTML = `
@@ -26,7 +26,7 @@ async function getWeatherData(location) {
     `;
   }
   
-  // Function to handle the search button click
+ 
   async function searchWeather() {
     const locationInput = document.getElementById('location-input');
     const location = locationInput.value.trim();
@@ -44,7 +44,6 @@ async function getWeatherData(location) {
     }
   }
   
-  // Event listener for the search button
   const submitBtn = document.getElementById('submit-btn');
   submitBtn.addEventListener('click', searchWeather);
 
@@ -59,10 +58,6 @@ function changeColor(){
 
 
   }
-
-     
-
-
 
   const logochange = document.getElementById('logo');
 
