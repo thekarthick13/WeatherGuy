@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>WeatherGuy</title>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+    <body>
+       
+        <img id="logo" src="logo.png" onclick="changeColor()">
+       
+       <div id="weather-container">
+        
+        <div id="location-container">
+            <input type="text" id="location-input" placeholder="Enter Location">
+            <button id="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        
+        <div id="weather-info">
+            <div id="current-weather"></div>
+            <div id="forecast-weather"></div>
+        </div>
+       </div>
+       <div id="info">
+        <h3>Click on the logo to switch between Dark Mode and Light Mode</h3>
+       </div>
+      
+
+       <script src="script.js"></script>
+       
+    </body>
+</html>
