@@ -47,10 +47,10 @@ font-weight: light;
   #location-container {
     margin-top: 20px;
   }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  ::placeholder { 
     text-align: center;
     color: white;
-    opacity: 1; /* Firefox */
+    opacity: 1;
   }
   
   #location-input {
