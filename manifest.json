@@ -1,0 +1,10 @@
+ {
+    "manifest_version": 3,
+    "version": "2.0",
+    "name": "WeatherGuy",
+    "description":"a project i made for fun. uses api",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon.png"
+    }
+ }
